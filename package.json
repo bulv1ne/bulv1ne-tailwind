@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "jsdeliver": "dist/output.css",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o dist/output.css"
+  }
+}
